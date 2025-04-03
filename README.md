@@ -6,6 +6,9 @@ Title: Setting Up a LAN on a Host-Only Network in Oracle VM VirtualBox
 Description:
 This repository provides a step-by-step guide to configuring a Local Area Network (LAN) using a Host-Only Network Adapter in Oracle VM VirtualBox. The setup enables virtual machines to communicate with each other in an isolated environment without internet access, making it ideal for penetration testing, cybersecurity labs, network simulations, and private testing environments.
 
+VM 1 will be Kali Linux as the attacker.
+VM 2 will be Metasploitable 2 as the victim. 
+
 Features:
 
 Configure a Host-Only Network Adapter for seamless VM communication
