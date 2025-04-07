@@ -36,6 +36,28 @@ Now, we fireup both VM's and check the arp table in the host system to see if ou
 
 ![when you run arp -a on host, it should look like this and show the IP's and MAC's of both VM's](arp-atableinhost.png)
 
+
+Now we ping both the VM's from the host to see if they respond. 
+
+![As you can see both 192.168.56.10 the Kali VM attacker, and 192.168.56.20 the Metasploitable2 VM victim](pingvmsfromhost-1.png)
+
+
+Now we check the connectivity from the Kali VM (attacker). 
+
+![As per this image you can see that the Host 192.168.56.1 and the victim 192.168.56.20 successfully ping](VirtualBox_Kali_29_03_2025_22_52_27.png)
+
+
+Now we check the connectivity from the Metasploitable2 victim VM 
+
+![As you can see you can ping the host from the victim VM](VirtualBox_msfvm_29_03_2025_22_50_07.png)
+
+
+Now, your homelab is all setup and good to go! :)
+
+
+
+Troubleshooting -- 
+
 In case, the arp -a table doesnt show the IP's of one or both VM's we can manually assign it to them. 
 
 For that we will first check the conf file of network. 
