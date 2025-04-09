@@ -47,7 +47,12 @@ Now we check the connectivity from the Kali VM (attacker).
 ![As per this image you can see that the Host 192.168.56.1 and the victim 192.168.56.20 successfully ping](VirtualBox_Kali_29_03_2025_22_52_27.png)
 
 
-Now we check the connectivity from the Metasploitable2 victim VM 
+Now we check again to confirm. 
+
+![this has the kali attacker pinging the host and the victim along with the arp table](VirtualBox_Kali_29_03_2025_22_53_11.png)
+
+
+Now we check the connectivity from the Metasploitable2 victim VM  
 
 ![As you can see you can ping the host from the victim VM](VirtualBox_msfvm_29_03_2025_22_50_07.png)
 
